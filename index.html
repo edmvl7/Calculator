@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+
+    <div id="calculator">
+        <h1>Calculatrice</h1>
+        <div id="show"></div>
+        <div class="line1">
+            <button onclick="
+                operation += '1';
+                console.log(operation);
+                document.getElementById('show').textContent = operation;
+                "
+                >1</button>
+
+            <button onclick="
+                operation += '2';
+                console.log(operation);
+                document.getElementById('show').textContent = operation;
+                "
+                >2</button>
+
+            <button onclick="
+                operation += '3';
+                console.log(operation);
+                document.getElementById('show').textContent = operation;
+                "
+                >3</button>
+
+            <button onclick="
+                operation += ' + ';
+                console.log(operation);
+                document.getElementById('show').textContent = operation;
+            
+            ">+</button>
+        </div>
+        
+
+        <div class="line2">
+            <button onclick="
+            
+                operation += '4';
+                console.log(operation);
+                document.getElementById('show').textContent = operation;
+                "
+                >4</button>
+
+            <button onclick="
+                operation += '5';
+                console.log(operation);
+                document.getElementById('show').textContent = operation;
+                "
+                >5</button>
+
+            <button onclick="
+                operation += '6';
+                console.log(operation);
+                document.getElementById('show').textContent = operation;
+                "
+                >6</button>
+
+            <button onclick="
+                operation += ' - ';
+                console.log(operation);
+                document.getElementById('show').textContent = operation;
+                "
+            >-</button>
+
+        </div>
+
+        <div class="line3">
+            <button onclick="
+                operation += '7';
+                console.log(operation);
+                document.getElementById('show').textContent = operation;
+                "
+                >7</button>
+
+            <button onclick="
+                operation += '8';
+                console.log(operation);
+                document.getElementById('show').textContent = operation;
+                "
+                >8</button>
+
+            <button onclick="
+                operation += '9';
+                console.log(operation);
+                document.getElementById('show').textContent = operation;
+                "
+                >9</button>
+
+            <button onclick="
+                operation += ' * ';
+                console.log(operation);
+                document.getElementById('show').textContent = operation;
+                "
+            >*</button>
+
+        </div>
+
+        <div class="line4">
+            <button onclick="
+                operation += '0';
+                console.log(operation);
+                document.getElementById('show').textContent = operation;
+                "
+                >.</button>
+
+            <button onclick="
+                operation += '.';
+                console.log(operation);
+                document.getElementById('show').textContent = operation;
+                ">0</button>
+
+            <button onclick="
+                operation = eval(operation);
+                console.log(operation);
+                document.getElementById('show').textContent = operation;
+                "
+                >=</button>
+
+            <button onclick="
+                operation += ' / ';
+                console.log(operation);
+                document.getElementById('show').textContent = operation;
+                "
+            >/</button>
+
+        </div>
+
+        <div class="line5">
+        <button onclick="
+            operation = '';
+            console.log(operation);
+            document.getElementById('show').textContent = operation;
+            "
+            >Clear</button>
+        </div>
+    </div>
+
+
+
+<script>
+
+    let operation = '';
+    </script>
+</body>
+</html>
